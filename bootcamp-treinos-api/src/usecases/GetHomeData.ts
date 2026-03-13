@@ -6,6 +6,7 @@ import { prisma } from "../lib/db.js";
 
 dayjs.extend(utc);
 
+//dias da seman
 const WEEKDAY_MAP: Record<number, string> = {
   0: "SUNDAY",
   1: "MONDAY",

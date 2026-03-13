@@ -2,7 +2,7 @@ import { NotFoundError } from "../errors/index.js";
 import { WeekDay } from "../generated/prisma/enums.js";
 import { prisma } from "../lib/db.js";
 
-// Data Transfer Object
+// Data Transfer Object t
 interface InputDto {
   userId: string;
   name: string;
