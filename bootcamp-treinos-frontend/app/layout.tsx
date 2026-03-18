@@ -29,6 +29,15 @@ const anton = Anton({
 export const metadata: Metadata = {
   title: "TreinoPro.AI",
   description: "O app que vai transformar a forma como você treina.",
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "TreinoPro.AI",
+  },
+  other: {
+    "mobile-web-app-capable": "yes",
+  },
 };
 
 export default function RootLayout({
